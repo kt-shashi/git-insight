@@ -1,0 +1,18 @@
+* {
+  padding: 5px;
+  margin: 10px;
+}
+
+body {
+  background-color: #212121;
+  color: white;
+}
+
+div {
+  background-color: #313131;
+  border-radius: 10px;
+}
+
+#submit {
+  border-radius: 8px;
+}
