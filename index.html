@@ -12,19 +12,52 @@
 
 <body>
 
-    <div class="form">
-        <form>
-            <label>Enter github username</label>
-            <input type="text" id="username">
-            <button id="submit">Submit</button>
-        </form>
+    <div class="header">
+        Welcome to <span>GitInsight</span>! Illuminate Your Repositories, Unveil Your Coding Journey
     </div>
 
+    <div class="form">
+
+        <div class="box" id="input">
+            <form>
+                <label>Enter github username</label>
+                <input type="text" id="username">
+                <button id="submit">Analyse</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div id="name">Name:</div>
+
     <div class="result">
-        <img id="image">
-        <div id="name">Name:</div>
-        <div id="followers">Followers: </div>
-        <div id="following">Following: </div>
+
+        <div class="data-box">
+            <img id="uimage">
+            <div id="uname">Username:</div>
+            <div id="followers">Followers: </div>
+            <div id="following">Following: </div>
+            <div id="bio"></div>
+            <div id="company"></div>
+            <div id="location"></div>
+            <div id="public-repo"></div>
+        </div>
+
+        <div class="stats-box">
+
+            <div>Contributions</div>
+            <img id="contribution-image">
+            <div>Most used languages</div>
+            <img id="lang-image">
+            <div>Stats</div>
+            <img id="status-image">
+            <div>Top languages</div>
+            <img id="top-lang-image">
+            <div>Contribution Graph</div>
+            <img id="graph-image">
+
+        </div>
+
     </div>
 
 </body>

@@ -3,16 +3,93 @@
   margin: 10px;
 }
 
+/* Header */
+span {
+  padding: 0px;
+  margin: 0px;
+  color: #fee715;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Body */
 body {
-  background-color: #212121;
+  background-color: #101820;
   color: white;
 }
 
-div {
+/* Box */
+.box {
+  display: inline-block;
   background-color: #313131;
   border-radius: 10px;
 }
 
+/* Form submit button */
 #submit {
   border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fee715;
+}
+
+#submit:hover {
+  background-color: #bca900;
+}
+
+/* User image */
+#uimage {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+/* Analysis */
+.result {
+  display: flex;
+}
+
+.result,
+#name {
+  visibility: hidden;
+}
+
+/* User name */
+#name {
+  display: flex;
+  justify-content: center;
+}
+
+/* User data */
+.data-box {
+  flex: 0 0 25%; /* 30% width, non-flexible */
+  padding: 10px;
+}
+
+/* User statistics */
+.stats-box {
+  flex: 1; /* 70% width, flexible */
+  padding: 10px;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.data-box,
+.stats-box {
+  background-color: #313131;
+  border-radius: 10px;
+}
+
+#uname {
+  text-align: center;
+  color: #fee715;
+  font-weight: bold;
 }
