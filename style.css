@@ -23,7 +23,7 @@ span {
 
 /* Body */
 body {
-  background-color: #101820;
+  background-color: #212121;
   color: white;
 }
 
@@ -92,4 +92,18 @@ body {
   text-align: center;
   color: #fee715;
   font-weight: bold;
+}
+
+#contribution-image,
+#lang-image,
+#status-image,
+#top-lang-image,
+#graph-image {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  font-style: italic;
 }

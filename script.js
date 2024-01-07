@@ -69,7 +69,7 @@ function showApiData(data) {
   ).innerHTML = `Public Repository: ${data.public_repos}`;
 
   // Other data
-  const contributionUrl = `https://streak-stats.demolab.com/?user=${data.login}&theme=highcontrast`;
+  const contributionUrl = `https://streak-stats.demolab.com/?user=${data.login}&theme=dark`;
   document.querySelector("#contribution-image").src = contributionUrl;
 
   const langUrl = `https://github-readme-stats.vercel.app/api/top-langs/?username=${data.login}&theme=highcontrast`;
@@ -81,7 +81,7 @@ function showApiData(data) {
   const topLangUrl = `https://github-readme-stats.vercel.app/api/top-langs/?username=${data.login}&layout=compact&theme=vision-friendly-dark`;
   document.querySelector("#top-lang-image").src = topLangUrl;
 
-  const graphUrl = `https://github-readme-activity-graph.vercel.app/graph?username=${data.login}&bg_color=1a1b27&color=aa82d9&line=628edb&point=64bfaf&area=true&hide_border=false`;
+  const graphUrl = `https://github-readme-activity-graph.vercel.app/graph?username=${data.login}&bg_color=212121&color=fbea15&line=fee715&point=403d3d&area=true&hide_border=true`;
   document.querySelector("#graph-image").src = graphUrl;
 }
 
